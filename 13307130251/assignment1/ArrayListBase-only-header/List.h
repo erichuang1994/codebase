@@ -4,12 +4,8 @@
  *
  *  List Interface
  */
-
 template <typename T>
 class List {
-    
-
-
     public :
         virtual int size() const = 0;
         virtual bool isEmpty() const = 0;
@@ -18,4 +14,3 @@ class List {
         virtual T remove(int index) = 0;
 
 };
-
